@@ -4,17 +4,16 @@ Landing page de uma agência fictícia, com apresentação de serviços e chamad
 
 **HTML · CSS**
 
-## Contexto
-
-Estudo de desenvolvimento web. O repositório preserva uma etapa da minha formação e permite consultar a implementação da interface.
-
-## O que o projeto apresenta
+## Destaques
 
 - Cabeçalho com navegação e seção de apresentação.
 - Cartões de serviços com conteúdo alternativo.
 - Folha de estilos específica para adaptação do layout.
 
-## Por dentro do código
+<details>
+<summary><strong>Organização e código</strong></summary>
+
+### Por dentro do código
 
 | Arquivo | Responsabilidade |
 | --- | --- |
@@ -22,7 +21,12 @@ Estudo de desenvolvimento web. O repositório preserva uma etapa da minha forma�
 | [`style.css`](style.css) | Estilos principais e cartões. |
 | [`reponsivo.css`](reponsivo.css) | Ajustes de responsividade. |
 
-## Executar localmente
+</details>
+
+<details>
+<summary><strong>Executar e consultar</strong></summary>
+
+### Executar localmente
 
 Clone o projeto e sirva a pasta com um servidor estático. Com Python 3 instalado:
 
@@ -34,9 +38,14 @@ python3 -m http.server 8080
 
 Abra http://localhost:8080. Não há instalação de dependências ou etapa de build.
 
-## Escopo e evolução
+</details>
+
+<details>
+<summary>Escopo e referências</summary>
 
 Os links de navegação e contratação incluem placeholders. Não há backend, envio de formulário ou serviço comercial associado.
+
+</details>
 
 ---
 
