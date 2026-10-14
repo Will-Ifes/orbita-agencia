@@ -1,144 +1,172 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Um site de exemplo para uma agência fictícia">
-        <meta name="keywords" content="Agência Digital, ">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="reponsivo.css">
-        
-        <title>Projeto agência fake</title>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="logo"> 
-                <h1>Agência Fake</h1>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Órbita Agência: sites, aplicativos e marketing digital pensados para o público e o tamanho da sua empresa.">
+    <title>Órbita Agência · Agência digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="pular-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="topo">
+        <div class="topo-interno">
+            <a class="logo" href="#inicio" aria-label="Órbita Agência, voltar ao início">Órbita Agência</a>
+
+            <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">
+                <span class="menu-icone" aria-hidden="true"></span>
+                <span class="menu-rotulo">Menu</span>
+            </button>
+
+            <nav aria-label="Principal">
+                <ul class="menu" id="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a class="botao botao-azul" href="#contato">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo" tabindex="-1">
+        <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+            <div class="hero-texto">
+                <p class="hero-chamada">Você encontrou a melhor</p>
+                <h1 id="hero-titulo">Agência Digital</h1>
+                <p>
+                    Nossa equipe é especializada em marketing digital e combina técnicas
+                    específicas para cada empresa, de acordo com o seu público, o seu
+                    tamanho e os resultados que você quer alcançar.
+                </p>
+                <div class="hero-acoes">
+                    <a class="botao botao-rosa" href="#contato">Contrate agora</a>
+                    <a class="botao botao-contorno" href="#servicos">Ver serviços</a>
+                </div>
+                <ul class="hero-tags" aria-label="Áreas de atuação">
+                    <li>Sites</li>
+                    <li>Aplicativos</li>
+                    <li>Marketing digital</li>
+                </ul>
             </div>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Serviços</a>
-                <a id="botao" href="#">Fale Conosco</a>
-            </div>
-
-        </nav>
-
-        <header class="header">
-            <div class="headline">
-                <h2>Você achou a melhor</h2>
-                <h2>Agência Digital</h2>
-                <p>Somos a melhor agência digital do Brasil, porque temos uma equipe altamente especializada em marketing digital e técnicas específicas para fazer o melhor trabalho de marketing digital para sua empresa, de acordo com o seu público, de acordo com 
-                 o tamanho da sua empresa e de acordo com o que você deseja atingir.</p>
-                    <a href="#" class="contat-btn">Contrate agora!</a>
-                </div>
-            <div class="img-headline">
-               <img src="assets/img-header.png" alt="imagem com ilustração que fazem referência a uma agência de mídia social"> 
-            </div>
-
-        </header>
-
-        <section>
-            <h2>O que podemos fazer pelo seu negócio ?</h2>
-            <div class="servicos">
-                <div class="card">
-                    <img src="assets/pc.png" alt="miniatura de um computador">
-                    <div class="card-text">
-                        <h3>Desenvolvimento de Sites</h3>
-                        <p>Criar um site bom e funcional é complicado. 
-                            Fazer isso no ambiente on-line pode ser ainda mais trabalhoso, 
-                            por isso escolha uma empresa de desenvolvimento de sites 
-                            com profissionais que deem atenção aos detalhes acerca 
-                            da experiência do usuário, 
-                            otimização de códigos, arquitetura da informação,
-                            entre outros. Iremos fazer o sistema ideal para
-                            você o seu negócio um site fácil de se entender, 
-                            que funcione de forma estremamente eficaz.
-                        </p>
-                    </div>
-                    <div class="card-oculto">
-                        <h3>Vamos fazer uma parceria ?</h3>
-                        <p>Conquistar a confiança de alguém não é tarefa fácil. 
-                            Fazer isso no ambiente on-line pode ser ainda mais trabalhoso, 
-                            por isso escolha uma empresa de desenvolvimento de sites 
-                            com profissionais que deem atenção aos detalhes acerca 
-                            da experiência do usuário, 
-                            otimização de códigos, arquitetura da informação,
-                            entre outros. Iremos fazer o sistema ideal para
-                            você o seu negócio um site fácil de se entender, 
-                            que funcione de forma estremamente eficaz.
-                        </p>
-                    </div>
-
-                    
-                </div>
-                <div class="card">
-                    <img src="assets/phone.png" alt="miniatura de um celular">
-                    <div class="card-text">    
-                        <h3>Desenvolvimento de Apps</h3>
-                        <p>Conquistar a confiança de alguém não é tarefa fácil. 
-                            O desenvolvimento de aplicativos se 
-                            tornou uma prática bastante recorrente entre as empresas.
-                            A popularidade dos dispositivos móveis fortaleceu
-                            ainda mais essa tendência, proporcionando novas formas
-                            de interagir e fechar negócios com o público. Acontece que,
-                            apesar de ser baseado em ideias criativas, 
-                            esse processo requer muito planejamento
-                            para alcançar o sucesso.
-                        </p>
-                    </div>
-                    <div class="card-oculto">    
-                        <h3>Vamos fazer uma parceria ?</h3>
-                        <p>Conquistar a confiança de alguém não é tarefa fácil. 
-                            O desenvolvimento de aplicativos se 
-                            tornou uma prática bastante recorrente entre as empresas.
-                            A popularidade dos dispositivos móveis fortaleceu
-                            ainda mais essa tendência, proporcionando novas formas
-                            de interagir e fechar negócios com o público. Acontece que,
-                            apesar de ser baseado em ideias criativas, 
-                            esse processo requer muito planejamento
-                            para alcançar o sucesso.
-                        </p>
-                    </div>
-
-
-                </div>
-                <div class="card">
-                    <img src="assets/media.png" alt="miniatura de um alto falante com símbolos para representa o marketing digital">
-                    <div class="card-text">
-                        <h3>Marketing Digital</h3>
-                        <p>Não resta dúvida sobre a utilidade e o crescimento do
-                            Marketing Digital nos próximos anos, e muita gente já sabe disso. E você? 
-                            Quer estar preparado para saber tudo sobre esse assunto agora mesmo?
-                            Se sua resposta for “sim”, criamos este conteúdo completo para que
-                            você entenda exatamente o que é Marketing Digita seus principais benefícios, como 
-                            fazer e como a sua empresa se encaixa e pode tirar
-                            proveito disso.
-                        </p>
-                    </div>
-                    <div class="card-oculto">
-                        <h3>Vamos fazer uma parceria ?</h3>
-                        <p>Quando você divulga algo em suas redes para a sua audiência,
-                            não só está colocando o nome da marca em jogo, mas o seu próprio nome.
-                            Portanto, não se deve indicar aquilo que você não testou e mais do que isso,
-                            não deve indicar algo que você 
-                            não utilize verdadeiramente, esse é um compromisso 
-                            que você deve ter com a sua audiência. Por isso estamos aqui para facilitar a sua vida.
-                        </p>
-                    </div>
-
-
-                </div>
+            <div class="hero-imagem">
+                <span class="orbita" aria-hidden="true"></span>
+                <span class="orbita orbita-2" aria-hidden="true"></span>
+                <img src="assets/img-header.png" width="594" height="420"
+                     alt="Ilustração de um megafone cercado pelos ícones de redes sociais.">
             </div>
         </section>
 
-        <footer>
-            <div class="logo-rodape">
-                <h1 class="agencia">Agência Fake</h1>
-                <p>Esse site foi feito com HTMS e CSS puros, para demostração do meu trabalho</p>
+        <section class="servicos" id="servicos" aria-labelledby="servicos-titulo">
+            <p class="rotulo">Serviços</p>
+            <h2 id="servicos-titulo">O que podemos fazer pelo seu negócio?</h2>
+
+            <ul class="cards">
+                <li class="card">
+                    <img src="assets/pc.png" width="64" height="64" alt="" loading="lazy">
+                    <h3>Desenvolvimento de sites</h3>
+                    <p>
+                        Criar um site bom e funcional exige atenção à experiência do usuário,
+                        à arquitetura da informação e à otimização do código. Entregamos um
+                        site fácil de entender e eficaz para o seu negócio.
+                    </p>
+                    <button class="card-botao" type="button" aria-expanded="false" aria-controls="parceria-sites">
+                        Vamos fazer uma parceria?
+                    </button>
+                    <div class="card-extra" id="parceria-sites" hidden>
+                        <p>
+                            Conquistar a confiança do seu cliente on-line é trabalhoso. Cuidamos
+                            de cada detalhe para que o seu site transmita credibilidade desde
+                            o primeiro acesso.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img src="assets/phone.png" width="64" height="64" alt="" loading="lazy">
+                    <h3>Desenvolvimento de apps</h3>
+                    <p>
+                        A popularidade dos dispositivos móveis abriu novas formas de interagir
+                        e fechar negócios com o público. Um bom aplicativo nasce de ideias
+                        criativas, mas depende de planejamento para dar certo.
+                    </p>
+                    <button class="card-botao" type="button" aria-expanded="false" aria-controls="parceria-apps">
+                        Vamos fazer uma parceria?
+                    </button>
+                    <div class="card-extra" id="parceria-apps" hidden>
+                        <p>
+                            Planejamos com você desde a ideia até a publicação nas lojas, com
+                            testes em dispositivos reais e acompanhamento depois do lançamento.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img src="assets/media.png" width="64" height="64" alt="" loading="lazy">
+                    <h3>Marketing digital</h3>
+                    <p>
+                        O marketing digital segue crescendo, e entender seus benefícios é o
+                        primeiro passo. Mostramos como a sua empresa se encaixa nesse cenário
+                        e como tirar proveito dele.
+                    </p>
+                    <button class="card-botao" type="button" aria-expanded="false" aria-controls="parceria-marketing">
+                        Vamos fazer uma parceria?
+                    </button>
+                    <div class="card-extra" id="parceria-marketing" hidden>
+                        <p>
+                            Quando você divulga algo para a sua audiência, coloca o nome da marca
+                            em jogo. Por isso só indicamos estratégias que testamos e em que
+                            acreditamos.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="sobre" id="sobre" aria-labelledby="sobre-titulo">
+            <div class="sobre-texto">
+                <p class="rotulo">Sobre nós</p>
+                <h2 id="sobre-titulo">Sua marca no centro, a gente em volta</h2>
+                <p>
+                    A Órbita Agência reúne design, desenvolvimento e marketing num só time.
+                    Trabalhamos perto de cada cliente para que a marca dele ganhe alcance
+                    sem perder a identidade.
+                </p>
             </div>
-            <b style="white" >© Todos os direitos revervados</b>
-        </footer>
-    </body>
+            <ol class="etapas">
+                <li>
+                    <h3>Escuta</h3>
+                    <p>Entendemos o seu público, o seu momento e onde você quer chegar.</p>
+                </li>
+                <li>
+                    <h3>Estratégia</h3>
+                    <p>Definimos canais, prioridades e como medir o resultado.</p>
+                </li>
+                <li>
+                    <h3>Execução</h3>
+                    <p>Criamos, publicamos e ajustamos com base nos dados.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="contato" id="contato" aria-labelledby="contato-titulo">
+            <h2 id="contato-titulo">Vamos colocar sua marca em órbita?</h2>
+            <p>Conte o que você precisa e respondemos em até um dia útil.</p>
+            <a class="botao botao-rosa" href="mailto:contato@orbita.example">Escrever para contato@orbita.example</a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-interno">
+            <p class="rodape-logo">Órbita Agência</p>
+            <p>Projeto de portfólio feito com HTML, CSS e JavaScript puros. A agência é fictícia.</p>
+            <p><small>© Todos os direitos reservados.</small></p>
+        </div>
+    </footer>
+</body>
 </html>
