@@ -1,8 +1,19 @@
+<p align="center">
+  <img src="./.github/readme-cover.svg" alt="Agência Fake: Uma landing page para explorar serviços e contato." width="100%" />
+</p>
+
 # Agência Fake · landing page
 
 Landing page de uma agência fictícia, com apresentação de serviços e chamadas para contato.
 
 **HTML · CSS**
+
+## Explore o diferencial
+
+| Ponto de entrada | O que observar |
+| --- | --- |
+| [Cartões de serviços](style.css) | Conteúdo alternativo e estilos dão ritmo à apresentação dos serviços. |
+| [Adaptação do layout](reponsivo.css) | Os ajustes de responsividade ficam em uma folha dedicada. |
 
 ## Destaques
 
