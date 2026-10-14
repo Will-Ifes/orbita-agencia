@@ -8,6 +8,10 @@ Landing page de uma agência digital fictícia, com apresentação de serviços 
 
 **HTML · CSS · JavaScript** · [Ver online](https://will-ifes.github.io/orbita-agencia/)
 
+<p align="center">
+  <img src="./.github/demo.gif" alt="Demonstração: a página rola do hero até os serviços, abre o card de apps, passa pelo Sobre nós e chega ao painel de contato." width="720" />
+</p>
+
 ## O que mudou na revisão
 
 | Antes | Depois |
